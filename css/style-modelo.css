@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -35,9 +39,10 @@ header {
 }
 
 #banner-principal h1 {
-    font-size: 6vw;
+    font-size: 4vw;
     color: white;
     text-align: center;
+    font-weight: 500;
 }
 
 #texto-principal {
@@ -84,6 +89,13 @@ header {
     margin-right: 5px;
 }
 
+.texto-desenvolvimento{
+    padding: 20px;
+    padding-top: 20px;
+    
+}
+
+
 /* //////FOOTER///////// */
 
 .footer-container {
@@ -94,7 +106,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 .footer-logo {
@@ -119,6 +131,75 @@ header {
     font-size: 0.7em;
 }
 
+/* CSS SECTION 2 */
+/* .btn{
+
+    background-color: #FFCC00;    
+    height: 40px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 7vh;
+       
+}
+
+
+#a-cad-link{
+    font-weight: bolder;
+    color: black;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+    padding: 17px 60px;
+}
+
+.meio-main {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.img-meio-main{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    max-width: 186px;
+    height: 75vh; 
+    padding-left: 40px; 
+}
+
+#cofre{
+    width: 30vw;
+    height: 40vh;
+    display: block;
+    margin-top: 33vh;
+}
+
+.conteudo-main{
+    text-align: center;
+    width: 70vw;
+    margin-top: 10vh;       
+}
+
+.h2-main{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+}
+
+.p-meio{
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 2vh;
+    padding-left: 30px;
+    padding-right: 50px;
+} */
 
 /* CSS parte about us */
 
@@ -175,6 +256,21 @@ header {
 
 .fotos-us {
     height: 150px;
+}
+
+.h2-desenvolvimento{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.texto-desenvolvimento{
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 8vw;
+    margin-right: 8vw;
+
 }
 
 /* CSS da página de conversão */

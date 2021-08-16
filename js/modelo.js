@@ -52,6 +52,7 @@ function alternarModoEscuro() {
     if (modoClaro) { // se a página estiver no modo claro...
         // troca as coisas para o modo escuro
         aboutUs.style.backgroundColor = "rgb(32, 33, 36)";
+        aboutUs.style.color = "rgb(255, 255, 255)";
 
         for (let i = 0; i < peopleBox.length; i++) { // alterar todos os elementos da classe people-box
             peopleBox[i].style.backgroundColor = "rgb(50, 52, 57)";
@@ -61,6 +62,7 @@ function alternarModoEscuro() {
     else { // se a página não estiver no modo claro...
         // troca as coisas para o modo claro
         aboutUs.style.backgroundColor = "rgb(255, 255, 255)";
+        aboutUs.style.color = "rgb(32, 33, 36)";
 
         for (let i = 0; i < peopleBox.length; i++) { // alterar todos os elementos da classe people-box
             peopleBox[i].style.backgroundColor = "rgb(255, 255, 255)";
@@ -68,6 +70,44 @@ function alternarModoEscuro() {
         }
     }
 }
+
+// function alternarModoEscuro() {
+//     let modoClaro;
+//     // variaveis página modelo.html
+//     const conteudoMain = document.querySelector("#meio-div");
+//     const conteudoMainStyle = getComputedStyle("conteudoMain");
+//     let conteudoMainBgColor = conteudoMainStyle.backgroundColor;
+//     const meioMain = document.getElementsByClassName("meio-main");
+
+//     console.log(conteudoMainBgColor); // para debugar
+
+//     if (conteudoMainBgColor == "rgb(255, 255, 255)") { // se a cor de fundo estiver branca...
+//         modoClaro = true;
+//     }
+//     else {
+//         modoClaro = false;
+//     }
+//     console.log(modoClaro); // para debugar
+
+//     if (modoClaro) { // se a página estiver no modo claro...
+//         // troca as coisas para o modo escuro
+//         conteudoMain.style.backgroundColor = "rgb(32, 33, 36)";
+
+//         for (let i = 0; i < meioMain.length; i++) { // alterar todos os elementos da classe people-box
+//             meioMain[i].style.backgroundColor = "rgb(50, 52, 57)";
+//             meioMain[i].style.color = "rgb(255, 255, 255)";
+//         }
+//     }
+//     else { // se a página não estiver no modo claro...
+//         // troca as coisas para o modo claro
+//         conteudoMain.style.backgroundColor = "rgb(255, 255, 255)";
+
+//         for (let i = 0; i < meioMain.length; i++) { // alterar todos os elementos da classe people-box
+//             meioMain[i].style.backgroundColor = "rgb(255, 255, 255)";
+//             meioMain[i].style.color = "rgb(0, 0, 0)";
+//         }
+//     }
+// }
 
 function alternarModoEscuroCadastro() {
     let modoClaro;
