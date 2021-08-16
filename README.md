@@ -1,5 +1,13 @@
 # Lacasa_De_Cambio
 
-Projeto em grupo do curso SoulCode, feito em HTML, CSS e JS.
+Projeto em grupo do Bootcamp da SoulCode, feito em HTML, CSS e JS.
 
-Contém página de conversão de moedas, calculadora simples e com modo botões avançados e página de cadastro com campos de validação.
+Contém página de conversão de moedas, calculadora em modo simples e alguns botões avançados e página de cadastro com campos de validação.
+
+#### Desenvolvedores:
+
+- [Alessandra Murat](github.com/AlessandraMurat)
+- [Alessandro Almeida](github.com/asalmeidarj)
+- [Marcelly Sanches](github.com/marcellysanches)
+- [Margareth Reis](github.com/MagBreis)
+- [Rafael Pontes](github.com/leafarpontes)
